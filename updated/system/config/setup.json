@@ -1,0 +1,21 @@
+{
+    "project_name":"my-portfolio",
+    "root-path":"update",
+    "db_host":"localhost",
+    "db_name":"my",
+    "db_user":"root",
+    "db_password":"",
+    "db_tables":["Home","About_Us","contact_us","user"],
+    "Home":"CREATE TABLE home (id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, firstname VARCHAR(30) NOT NULL,lastname VARCHAR(30) NOT NULL,email VARCHAR(50),reg_date TIMESTAMP)",
+    "About_Us":"CREATE TABLE About_Us (id VARCHAR(30) PRIMARY KEY, type VARCHAR(30) NOT NULL,title VARCHAR(55) NOT NULL,description VARCHAR(255) NOT NULL)",
+    "contact_us":"CREATE TABLE contact_us (id VARCHAR(30) PRIMARY KEY, type VARCHAR(30) NOT NULL,name VARCHAR(55) NOT NULL,address VARCHAR(255) NOT NULL,contact_no VARCHAR(55) NOT NULL )",
+    "user":"CREATE TABLE user (id VARCHAR(30) PRIMARY KEY, username VARCHAR(30) NOT NULL,email VARCHAR(55) NOT NULL,password VARCHAR(255) NOT NULL)"    
+    
+    
+
+
+    
+}
+
+
+

@@ -1,0 +1,174 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 1, 2016, 6:19:55 PM
+    Author     : jobayer
+*/
+
+/*css reset code start*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*css reset code end*/
+
+
+header{
+    display:block;
+    background-color:cadetblue;
+    margin: 0px;
+    padding: 0px;
+    height:fit-content; 
+}
+
+header h1{
+    color: white;
+    font-size:30px;
+    width:70%;
+    margin-left:5%;
+    display:inline-block; 
+    padding: 25px 0px;
+    vertical-align: top;
+}
+header img{
+    display: inline-block;
+    width: 6%;
+    margin-left: 214px;
+    height: 52px;
+    margin-top: 14px;
+    background-color: red;
+    border-radius: 34px;
+    
+}
+#body{
+    height: 100vh;
+    display: block;
+    background-color:white;
+}
+#menu-bar{
+    width:15%;
+    background-color:grey;
+    height: 100vh;
+    display:inline-block;
+    vertical-align:top;
+    
+    padding: 0px;
+}
+#menu-bar h3{
+    //margin-left:7px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    padding:7px 5px;
+    display: block;
+    background-color: black;
+    text-align:justify;
+}
+#menu-bar ul{
+    margin-left:5px; 
+}
+#menu-bar ul li a{
+    padding: 7px 0px;
+    display: block;
+    color:black;
+}
+#template{
+    width:84.5%;
+    height: 100vh;
+    display:inline-block;
+    background-color:azure;
+    //padding-right:4px;
+    vertical-align:top; 
+    
+}
+#menu-bar .menu-bar{
+    list-style: none;
+}
+#menu-bar a{
+    display: block;
+    margin-left: 5px;
+    margin-top: 3px;
+    color:black;
+     
+}
+
+a{
+    text-decoration: none;
+}
+#template h1{
+    font-size:32px;
+    color: black;
+    margin-left: 15px;
+    margin-top:96px;
+    margin-bottom: 10px;
+}
+#template p{
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+#template #form-data{
+    margin-left:50px;
+    margin-top: 20px;
+}
+#template form textarea{
+    display:block;
+    height:300px;
+}
+
+#themes-details{
+    color: black;
+    
+    display: inline-block;
+    margin-left: 3px;
+}
+
+#form-data input[text]{
+    width: 100px;
+}
